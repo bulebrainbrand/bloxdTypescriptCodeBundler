@@ -1,0 +1,27 @@
+{
+  "name": "bloxdtypescripycodebundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist/",
+    "bin/"
+  ],
+  "bin": {
+    "ts-bloxdBuild": "./bin/cil.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.27.4",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0"
+  }
+}
